@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 20px;
 }
 
 .App-logo {
@@ -19,4 +20,114 @@
 
 .App-link {
   color: #09d3ac;
+}
+.column{
+    float: left;
+    width: 18%;
+    margin: 20px 1.15%;
+    background-color: #B2D6FF;
+    padding: 20px;
+    height: auto;
+}
+
+.columnText{
+  margin: 5px;
+}
+.blogText{
+  color: #d2691e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.userPost{
+  text-align: left;border: 1px solid darkgray;padding: 10px;font-size: 20px;text-transform: capitalize;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.accordion_container {
+    padding: 20px;
+    cursor: pointer;
+    background-color: #80808069;
+}
+
+.accordion_container .accord_heading_label {
+  font-size: 14px;
+  color: #838793;
+}
+
+.accordion_container .expanded .arrow {
+  background: url(./arrow-up.svg) no-repeat;
+  width: 13px;
+  height: 13px;
+  background-size: 13px;
+  background-position: 0px 5px;
+}
+
+.accordion_container .accordion_body ul li {
+  color: #343434;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.accordion_container .collapsed .arrow {
+  background: url(./arrow-down.svg) no-repeat;
+  width: 13px;
+  height: 13px;
+  background-size: 13px;
+  background-position: 0 5px;
+}
+
+.accordion_container .collapsed+.accordion_body {
+  display: none;
+}
+
+.accordion_container .kewyword_per_label_top {
+  margin-top: 15px;
+  float: left;
+}
+
+.accordion_container .chart_image_2 {
+  background-position: right;
+}
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+.clearall {
+  clear: both;
+}
+.userPostComment{
+  border: 1px solid gainsboro;
+    display: flex;
+    padding: 20px;
+}
+.postBody{
+  width: 90%;
+}
+.deleteButton{
+  margin-left: 50px;
+  cursor: pointer;
+}
+.postList{
+  cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.postTitle{
+  font-size: 24px;
+    font-weight: bold;
+}
+.userPage{
+    margin: 10px 1.15%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.postName{
+  font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px
 }
