@@ -8,10 +8,12 @@ import { createAction } from "redux-actions";
 const actionTypes = {
     GET_USERS: "GET_USERS",
     SET_USERS: "SET_USERS",
-    SET_USERID:"SET_USERID"
+    GET_REPO:"GET_REPO",
+    SET_REPO:"SET_REPO"
 };
 export default actionTypes;
 
 export const getUsers = createAction(actionTypes.GET_USERS);
 export const setUsers = createAction(actionTypes.SET_USERS);
-export const setUserId = createAction(actionTypes.SET_USERID);
+export const getUserRepo = createAction(actionTypes.GET_REPO);
+export const setUserRepo = createAction(actionTypes.SET_REPO);

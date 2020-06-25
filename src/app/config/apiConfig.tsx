@@ -1,5 +1,5 @@
 export const ApiConfig = {
     baseUrl:
-        "https://jsonplaceholder.typicode.com/",
+        "https://api.github.com/",
 
 };

@@ -5,7 +5,8 @@ import { UsersFlowReducerInterface } from "./types";
 
 const INIT_STATE: UsersFlowReducerInterface = {
     usersList: [],
-    userId:undefined
+   
+    repoList:[]
 };
 const Reducer = handleActions(
     {
@@ -23,14 +24,14 @@ const Reducer = handleActions(
                 action.payload
             
         }),
-        [actionTypes.SET_USERID]: (state, action: AnyAction) => 
+        [actionTypes.GET_REPO]: (state, action: AnyAction) => 
         ({
             ...state,
-            isLoading: false,
-            userId:
+            repoList:
                 action.payload
             
         }),
+       
     },
     INIT_STATE
 );

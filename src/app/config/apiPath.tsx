@@ -11,7 +11,7 @@ export const METHOD = {
     DELETE:MethodsType.DELETE
 };
 export const ApiPath = {
-    USERS: "/users",
-    POSTS:"/posts",
-    COMMENTS:"/comments"
+
+    USERDETAIL:"/users/supreetsingh247",
+    USERREPO:"/users/supreetsingh247/repos"
 };
